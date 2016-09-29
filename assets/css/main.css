@@ -31,11 +31,6 @@
 		text-align: center !important;
 	}
 
-	.bio_image {
-		transform: scale(.5, .5);
-		top: -220px !important;
-	}
-
 	body {
 		line-height: 1;
 	}
@@ -3432,4 +3427,10 @@
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+	#five:after {
+		content: "";
+	  display: block;
+	  clear: both;
 	}
